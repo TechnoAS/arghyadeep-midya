@@ -90,7 +90,7 @@ export default function Preloader() {
           </div>
 
           {/* ── Layered overlays ── */}
-          <div className="preloader__overlay preloader__overlay--dark"   aria-hidden />
+          <div className="preloader__overlay preloader__overlay--dark" style={{ background: "rgb(4 2 1 / 0.64)" }} aria-hidden />
           <div className="preloader__overlay preloader__overlay--vignette" aria-hidden />
           <div className="preloader__overlay preloader__overlay--bottom"  aria-hidden />
 
@@ -105,8 +105,8 @@ export default function Preloader() {
               <Image
                 src="/logo main.png"
                 alt="Arghyadeep Midya"
-                width={140}
-                height={105}
+                width={200}
+                height={150}
                 className="preloader__logo"
                 priority
               />
