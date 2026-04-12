@@ -13,7 +13,7 @@ const fadeUp = (delay: number) => ({
   visible: {
     opacity: 1,
     y: 0,
-    transition: { delay, duration: 0.8, ease: [0.16, 1, 0.3, 1] },
+    transition: { delay, duration: 0.8, ease: [0.16, 1, 0.3, 1] as const },
   },
 });
 
@@ -22,7 +22,7 @@ const lineVariants = {
   visible: {
     scaleX: 1,
     opacity: 1,
-    transition: { delay: 1.4, duration: 0.9, ease: [0.16, 1, 0.3, 1] },
+    transition: { delay: 1.4, duration: 0.9, ease: [0.16, 1, 0.3, 1] as const },
   },
 };
 
