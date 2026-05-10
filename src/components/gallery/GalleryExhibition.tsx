@@ -58,7 +58,7 @@ export default function GalleryExhibition({ pieces }: Props) {
         groupMap.set(gName, section);
         groups.push(section);
       }
-      /* global index offset by 1 because hero is pieces[0] */
+      // Global index is offset by 1 because the hero image is pieces[0]
       groupMap.get(gName)!.items.push({ piece, index: idx + 1 });
     });
     return groups;
