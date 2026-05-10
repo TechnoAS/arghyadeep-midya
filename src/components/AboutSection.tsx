@@ -201,9 +201,10 @@ export default function AboutSection() {
         >
           Arghyadeep Midya
         </h2>
-        <p className="about-section__lede mt-5 max-w-md text-sm leading-relaxed text-white/45 sm:text-base">
-          Wildlife photographer and naturalist — drawn to light, patience, and the stories the wild
-          tells when no one is watching.
+        <p className="about-section__lede mt-5 max-w-xl text-sm leading-relaxed text-white/45 sm:text-base text-balance mx-auto">
+          I am a wildlife photographer and naturalist dedicated to capturing the raw, untamed beauty of the natural world. 
+          Drawn to patience and the delicate interplay of light, I strive to preserve the silent stories the wild tells 
+          when no one is watching, inspiring a deeper connection with nature through my lens.
         </p>
       </div>
     </section>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import GalleryExhibition from "@/components/gallery/GalleryExhibition";
 import GalleryHeroIntro from "@/components/gallery/GalleryHeroIntro";
+import SkyStars from "@/components/gallery/SkyStars";
 import { galleryPieces } from "@/data/galleryPieces";
 
 export const metadata: Metadata = {
@@ -11,7 +12,8 @@ export const metadata: Metadata = {
 
 export default function GalleryPage() {
   return (
-    <main className="gallery-page">
+    <main className="gallery-page relative">
+      <SkyStars />
       {/* Full-viewport cinematic intro */}
       <GalleryHeroIntro heroSrc={galleryPieces[0].src} />
 
