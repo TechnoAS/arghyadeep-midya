@@ -135,7 +135,7 @@ export default function RootLayout({
             __html: `
               <img
                 id="pl-shell-pulse"
-                src="/logo main.png"
+                src="/logoMain.png"
                 alt=""
                 width="200"
                 height="150"
