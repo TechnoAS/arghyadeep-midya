@@ -1,0 +1,38 @@
+# Arghyadeep Midya - Personal Portfolio
+
+Welcome to the source code for my personal portfolio website! This project is built using modern web technologies to showcase my skills, projects, and professional experience with a focus on a clean, glassmorphic aesthetic and smooth animations.
+
+## Technologies Used
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Library**: [React](https://react.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://motion.dev/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+## Features
+
+- **Modern Glassmorphic UI**: A premium design with vibrant colors and glassmorphic elements.
+- **Dynamic Animations**: Smooth micro-animations and page transitions powered by Framer Motion.
+- **Responsive Layout**: Fully responsive design across all devices.
+- **Optimized Performance**: Next.js image optimization and fast loading times.
+
+## Getting Started
+
+First, install the dependencies:
+
+```bash
+npm install
+```
+
+Then, run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## License
+
+This project is for personal portfolio use.
