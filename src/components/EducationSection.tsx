@@ -149,12 +149,12 @@ export default function EducationSection() {
       {/* Firefly canvas */}
       <canvas
         ref={canvasRef}
-        className="pointer-events-none absolute inset-0 z-[1] h-full w-full"
+        className="pointer-events-none absolute inset-0 z-1 h-full w-full"
         aria-hidden
       />
 
       {/* Content */}
-      <div className="relative z-[2] flex h-full flex-col items-center justify-center px-6">
+      <div className="relative z-2 flex h-full flex-col items-center justify-center px-6">
 
         {/* Header */}
         <motion.div

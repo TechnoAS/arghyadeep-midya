@@ -8,59 +8,66 @@ export const galleryPieces: GalleryPiece[] = [
     year: "2024",
     medium: "Portrait",
   },
-
-  /* ── The Night Watches ── */
+  /* ── Every frame holds a different story ── */
   {
-    src: "/SAVE_20230915_185529.jpg",
-    title: "Night Watches I",
+    src: "/_ARG7935_ed.jpg.jpeg",
+    title: "Time slows in the presence of life,Details unfold in quiet patience",
     year: "2023",
-    medium: "The Night Watches",
+    medium: "Every frame holds a different story",
   },
   {
-    src: "/1729262756010.jpg.jpeg",
-    title: "Night Watches II",
-    year: "2022",
-    medium: "The Night Watches",
+    src: "/DSC_5082.jpg.jpeg",
+    title: "",
+    year: "2023",
+    medium: "Every frame holds a different story",
   },
+  {
+    src: "/DSC_4211.jpg.jpeg",
+    title: "",
+    year: "2023",
+    medium: "Every frame holds a different story",
+  },
+
 
   /* ── What the Shore Remembers ── */
   {
-    src: "/DSC_5082.jpg.jpeg",
-    title: "Shore Remembers",
-    year: "2022",
-    medium: "What the Shore Remembers",
-  },
-  {
-    src: "/_DSC3547.jpg.jpeg",
-    title: "Forest Floor",
-    year: "2022",
-    medium: "What the Shore Remembers",
-  },
-  {
-    src: "/DSC_4463.jpg.jpeg",
-    title: "Field Study I",
-    year: "2023",
-    medium: "What the Shore Remembers",
-  },
-  {
-    src: "/_DSC1599.jpg.jpeg",
-    title: "Field Study II",
-    year: "2023",
-    medium: "What the Shore Remembers",
+    src: "/IMG212.jpg",
+    title: "",
+    year: "2024",
+    medium: "Twilight",
   },
 
-  /* ── Twilight ── */
   {
-    src: "/fox.jpg",
-    title: "Fox",
+    src: "/IMG21.jpeg",
+    title: "",
     year: "2024",
     medium: "Twilight",
   },
   {
-    src: "/_ARG7935_ed.jpg.jpeg",
-    title: "Argus",
-    year: "2023",
+    src: "/fox.jpg",
+    title: "",
+    year: "2024",
     medium: "Twilight",
+  },
+  {
+    src: "/IMG51.jpeg",
+    title: "",
+    year: "2024",
+    medium: "Twilight",
+  },
+
+
+
+  /* ── Twilight ── */
+
+
+
+  /* ── Catching the internal glow ── */
+  {
+    src: "/Untitled-2_web%20copy.jpg.jpeg",
+    title: "Light flickers where silence breathes,Nature whispers in glowing rhythm",
+    year: "2023",
+    medium: "Catching the internal glow",
   },
 
   /* ── Before the Storm ── */
@@ -68,26 +75,17 @@ export const galleryPieces: GalleryPiece[] = [
     src: "/RIT_1295.jpg.jpeg",
     title: "Ritual of Light",
     year: "2023",
-    medium: "Before the Storm",
+    medium: "Black and White",
   },
   {
-    src: "/DSC_4211.jpg.jpeg",
-    title: "Field Study III",
+    src: "/DSC_4463.jpg.jpeg",
+    title: "Before the Storm",
     year: "2023",
-    medium: "Before the Storm",
+    medium: "Black and White",
   },
 
-  /* ── Negative Space ── */
-  {
-    src: "/Untitled-2_cropped_web.jpg.jpeg",
-    title: "Untitled Study I",
-    year: "2023",
-    medium: "Negative Space",
-  },
-  {
-    src: "/Untitled-2_web%20copy.jpg.jpeg",
-    title: "Untitled Study II",
-    year: "2023",
-    medium: "Negative Space",
-  },
+
+
+
+
 ];

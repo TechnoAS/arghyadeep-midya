@@ -85,13 +85,7 @@ const CONNECT_ACTIONS = [
     Icon: IconInstagram,
     external: true,
   },
-  {
-    key: "facebook",
-    href: socialLinks.facebook,
-    label: "Facebook",
-    Icon: IconFacebook,
-    external: true,
-  },
+
   {
     key: "linkedin",
     href: socialLinks.linkedin,

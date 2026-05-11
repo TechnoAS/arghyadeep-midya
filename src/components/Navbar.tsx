@@ -18,9 +18,15 @@ export default function Navbar() {
         href="/"
         className="flex shrink-0 items-center opacity-95 transition-opacity hover:opacity-100"
         aria-label="Home"
+        onClick={(e) => {
+          if (pathname === "/") {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }
+        }}
       >
         <Image
-          src="/logo%20main.png"
+          src="/logoMain.png"
           alt="Arghyadeep Midya – AM monogram logo"
           width={120}
           height={80}
@@ -31,8 +37,8 @@ export default function Navbar() {
         />
       </Link>
 
-      <Link 
-        href={ctaHref} 
+      <Link
+        href={ctaHref}
         className="navbar-gallery-cta group relative min-w-[6.5rem] overflow-hidden sm:min-w-[7.5rem]"
       >
         <span className="flex items-center justify-center transition-all duration-500 ease-in-out group-hover:scale-50 group-hover:opacity-0 group-hover:-translate-y-4">

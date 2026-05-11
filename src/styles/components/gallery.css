@@ -4,8 +4,17 @@
 
 /* ── Scroll cue animation ── */
 @keyframes g-intro-scroll-pulse {
-  0%, 100% { opacity: 0.4; transform: scaleY(1);    }
-  50%       { opacity: 0.9; transform: scaleY(1.18); }
+
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scaleY(1);
+  }
+
+  50% {
+    opacity: 0.9;
+    transform: scaleY(1.18);
+  }
 }
 
 /* ── Intro fullscreen ── */
@@ -114,7 +123,9 @@
   color: var(--clr-amber-96);
 }
 
-.g-intro__title span { display: inline; }
+.g-intro__title span {
+  display: inline;
+}
 
 .g-intro__credit {
   margin: 1.6rem 0 0.65rem;
@@ -215,7 +226,9 @@
 }
 
 @media (min-width: 768px) {
-  .gallery-hero { padding: 0 var(--space-8) var(--space-16); }
+  .gallery-hero {
+    padding: 0 var(--space-8) var(--space-16);
+  }
 }
 
 .gallery-hero__frame {
@@ -241,7 +254,9 @@
   transition: transform var(--dur-slow) var(--ease-out);
 }
 
-.gallery-hero__frame:hover .gallery-hero__img { transform: scale(1.025); }
+.gallery-hero__frame:hover .gallery-hero__img {
+  transform: scale(1.025);
+}
 
 /* ── Body ── */
 .gallery-body {
@@ -257,7 +272,9 @@
 }
 
 @media (min-width: 768px) {
-  .gallery-body { gap: 5.5rem; }
+  .gallery-body {
+    gap: 5.5rem;
+  }
 }
 
 /* ── Section ── */
@@ -277,7 +294,7 @@
 
 .gallery-section__title {
   font-family: var(--font-body);
-  font-size: clamp(0.6rem, 1.8vw, 0.78rem);
+  font-size: clamp(1rem, 1.8vw, 0.78rem);
   font-weight: 300;
   letter-spacing: 0.38em;
   text-transform: uppercase;
@@ -293,7 +310,10 @@
 }
 
 @media (max-width: 479px) {
-  .gallery-section__grid { grid-template-columns: 1fr; gap: var(--space-3); }
+  .gallery-section__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
 }
 
 /* ── Photo cell ── */
@@ -309,7 +329,9 @@
   text-align: left;
 }
 
-.gallery-cell--featured { grid-column: 1 / -1; }
+.gallery-cell--featured {
+  grid-column: 1 / -1;
+}
 
 .gallery-cell__frame {
   position: relative;
@@ -319,8 +341,8 @@
   box-shadow: var(--shadow-sm);
   transition:
     border-color var(--dur-base) var(--ease-std),
-    box-shadow   var(--dur-base) var(--ease-std),
-    transform    0.4s var(--ease-out);
+    box-shadow var(--dur-base) var(--ease-std),
+    transform 0.4s var(--ease-out);
 }
 
 .gallery-cell:hover .gallery-cell__frame,
@@ -343,7 +365,9 @@
   transition: transform var(--dur-slow) var(--ease-out);
 }
 
-.gallery-cell:hover .gallery-cell__img { transform: scale(1.04); }
+.gallery-cell:hover .gallery-cell__img {
+  transform: scale(1.04);
+}
 
 .gallery-cell__caption {
   margin: 0;
@@ -385,10 +409,7 @@
   align-items: center;
   justify-content: center;
   padding:
-    max(var(--space-4), env(safe-area-inset-top,    0px))
-    max(var(--space-4), env(safe-area-inset-right,  0px))
-    max(var(--space-4), env(safe-area-inset-bottom, 0px))
-    max(var(--space-4), env(safe-area-inset-left,   0px));
+    max(var(--space-4), env(safe-area-inset-top, 0px)) max(var(--space-4), env(safe-area-inset-right, 0px)) max(var(--space-4), env(safe-area-inset-bottom, 0px)) max(var(--space-4), env(safe-area-inset-left, 0px));
   background: rgb(5 3 2 / 0.88);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
@@ -421,8 +442,8 @@
   background: transparent;
   cursor: pointer;
   transition: background var(--dur-fast) var(--ease-std),
-              border-color var(--dur-fast) var(--ease-std),
-              color var(--dur-fast) var(--ease-std);
+    border-color var(--dur-fast) var(--ease-std),
+    color var(--dur-fast) var(--ease-std);
 }
 
 .gallery-lightbox__close:hover {
@@ -449,7 +470,10 @@
   margin-inline: auto;
 }
 
-.gallery-lightbox__caption { padding: 0 var(--space-5) var(--space-5); text-align: center; }
+.gallery-lightbox__caption {
+  padding: 0 var(--space-5) var(--space-5);
+  text-align: center;
+}
 
 .gallery-lightbox__title {
   margin: 0 0 0.3rem;
@@ -503,5 +527,10 @@
   background: var(--clr-white-07);
 }
 
-.gallery-lightbox__nav--prev { left:  var(--space-4); }
-.gallery-lightbox__nav--next { right: var(--space-4); }
+.gallery-lightbox__nav--prev {
+  left: var(--space-4);
+}
+
+.gallery-lightbox__nav--next {
+  right: var(--space-4);
+}
