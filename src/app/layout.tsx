@@ -95,6 +95,9 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Arghyadeep Midya",
   description: "Wildlife photographer and naturalist — Arghyadeep Midya.",
+  icons: {
+    icon: "/logoMain.png",
+  },
 };
 
 export default function RootLayout({
