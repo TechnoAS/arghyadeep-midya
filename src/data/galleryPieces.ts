@@ -11,7 +11,7 @@ export const galleryPieces: GalleryPiece[] = [
   /* ── Every frame holds a different story ── */
   {
     src: "/_ARG7935_ed.jpg.jpeg",
-    title: "Time slows in the presence of life,Details unfold in quiet patience",
+    title: "",
     year: "2023",
     medium: "Every frame holds a different story",
   },
